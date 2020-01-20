@@ -6,7 +6,11 @@ import Title from "./components/Title";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <main>
+        <Title content="This is a react-app" />
+      </main>
+
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,9 +21,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Welcome to Codaisseur
+          Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
